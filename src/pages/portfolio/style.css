@@ -1,0 +1,52 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  /* Optional: Enforce box-sizing to avoid layout leaks */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+/* General gallery styling */
+.gallery-home {
+    padding: 2rem;
+    text-align: center;
+    margin-left: 60px; /* Add margin to prevent overlap with sidebar */
+  }
+  
+  /* Grid layout for gallery sections */
+  .sections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Section card */
+  .section-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .section-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  .section-card .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
