@@ -24,31 +24,49 @@ Lightbox: react-image-lightbox or similar
 
 Deployment: Vercel, Netlify, or GitHub Pages
 
+---
+
 ## 🚀 Getting Started
 📥 Clone the Repository
-git clone https://github.com/your-username/lenscraft.git
+git clone https://github.com/MalickMuzamil/lenscraft.git
 cd lenscraft
 
 ## 📦 Install Dependencies
 npm install
 
+---
 
 ## ▶️ Run the Development Server
 npm run dev
 Now open http://localhost:5173 in your browser.
 
+---
+
 ## 📁 Project Structure
+
 lenscraft/
+
 ├── src/
+
 │   ├── assets/              # Images and media
+
 │   ├── components/          # Navbar, Gallery, Footer, etc.
+
 │   ├── pages/               # Home, About, Contact
+
 │   ├── App.jsx              # Main App
+
 │   └── index.js             # Entry point
+
 ├── public/                  # Static files
+
 ├── tailwind.config.js
+
 ├── vite.config.js
+
 └── README.md
+
+---
 
 ## 🧠 Learnings
 
@@ -62,8 +80,13 @@ lenscraft/
 
 ✅ Deployed to Netlify/Vercel for fast hosting
 
+---
+
 ## 🧑‍💻 Author
 Made with ❤️ by MalickMuzamil
 
-<!-- 📧 Email: malikmuzamil92110@example.com | 💼 LinkedIn: linkedin.com/in/malik-muzamil -->
+📧 Email: malikmuzamil92110@example.com
+
+💼 LinkedIn: linkedin.com/in/malik-muzamil
+
 "Turn moments into masterpieces — LensCraft brings your photography to life."
